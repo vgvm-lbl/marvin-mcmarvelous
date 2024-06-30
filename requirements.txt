@@ -1,0 +1,5 @@
+nltk
+pillow
+pyaudio
+torch
+transformers
