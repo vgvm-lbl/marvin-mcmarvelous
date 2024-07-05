@@ -1,3 +1,7 @@
+# Change out TK for Gradios
+
+Dunno why I didn't just use Gradios from the start...
+
 # Using other bots
 
 Even though I'm saying you can use other bots, you will have to modify the result extraction code atm.
