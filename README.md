@@ -93,3 +93,18 @@ By default it shoudl run on http://aid:7860/sdapi/v1/txt2img
 
 I'm not going to go into this a lot because the dox for it are already super great, but recommend running it with: ```./webui.sh --xformers --api --listen```
 
+# More Marvelousnessitudinesses!
+
+If you are more focusing on image generation you can use ```--chop``` to have Marvin only read the first sentence while still using the full llm output for the image prompt.
+
+You can make Marvin be a little quieter at startup and shutdown with the ```--quiet``` flag.
+
+## System prompts
+
+You can override the systems prompts a few ways:
+
+1. using the ```--system="System prompt goes where"```
+2. using the ```--load=personality.json```
+3. dynamially using ```--wake_words=marvin,learn```, saying "learn" will let you speak a new prompt
+
+You can also use a longer prompt defined in ```SystemPrompts.py``` like ```--system=dan```
